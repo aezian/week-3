@@ -1,0 +1,34 @@
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logo{
+  grid-area: 1/1/1/2;
+}
+.socialicon{
+  grid-area: 1/2/2/3;
+  margin-right: $gutter;
+
+}
+
+div.aboutme{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "pic aboutmedes aboutmedes"
+  "pic tableft tabright";
+}
+
+div.imgwrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+div.articles{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div.wrapform{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,12 @@
+body{
+  .name{padding-top: 6rem;}
+}
+
+
+.nav{
+  ul{margin-left: $gutter; border-left: 1px solid rgba(0,0,0,0.3);}
+ ul.large li{width: auto;}
+ ul.large li:last-child{border-right: 1px solid rgba(0,0,0,0.3);}
+ ul.large li a{padding: .5rem 1rem;}
+
+}
